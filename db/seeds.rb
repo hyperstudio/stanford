@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Create initial groups for the Annotation Studio application
+Role.where(name: 'Admin').first_or_create
+Role.where(name: 'Editor').first_or_create
+Role.where(name: 'Student').first_or_create
