@@ -2,30 +2,30 @@ development:
     DEFAULT_NEW_USER_GROUP: public
     GOOGLE_ANALYTICS_CODE: asdf
     ENVIRONMENT_TAG: Welcome
-    API_URL: http://ann-store.herokuapp.com/api
+    API_URL: http://ls-annotations.herokuapp.com/api
     DEFAULT_USER_GROUP: public
     DEFAULT_USERS_CAN_CHOOSE_GROUPS: false
     DEFAULT_USERS_CAN_CONTROL_PERMISSIONS: false
     DEFAULT_USERS_CAN_CREATE_TEXTS: false
     DEFAULT_USERS_CAN_SEE_OTHERS_WORK: false
     UNICORN_BACKLOG: 16
-    API_SECRET: thisissupersecret
-    API_CONSUMER: ann-studio.herokuapp.com
+    API_SECRET: widner
+    API_CONSUMER: lacunastories.herokuapp.com
     CONFIRMATION_GRACE_PERIOD: 2
-    GMAIL_USER: admin@finalsclub.org
-    GMAIL_PASS: fattyfatfat
+    GMAIL_USER: 
+    GMAIL_PASS: 
 
 production:
     DEFAULT_NEW_USER_GROUP: public
     GOOGLE_ANALYTICS_CODE: asdf
     ENVIRONMENT_TAG: Welcome
-    API_URL: http://ann-store.herokuapp.com/api
+    API_URL: http://ls-annotations.herokuapp.com/api
     DEFAULT_USER_GROUP: public
     DEFAULT_USERS_CAN_CHOOSE_GROUPS: false
     DEFAULT_USERS_CAN_CONTROL_PERMISSIONS: false
     DEFAULT_USERS_CAN_CREATE_TEXTS: false
     DEFAULT_USERS_CAN_SEE_OTHERS_WORK: false
     UNICORN_BACKLOG: 16
-    API_SECRET: thisissupersecret
-    API_CONSUMER: ann-studio.herokuapp.com
+    API_SECRET: widner
+    API_CONSUMER: lacunastories.herokuapp.com
     CONFIRMATION_GRACE_PERIOD: 2
